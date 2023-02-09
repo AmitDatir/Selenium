@@ -24,7 +24,7 @@ public class AmazonLogin {
 		driver.findElement(By.xpath("//input[@id = 'ap_email'][@name = 'email']")).sendKeys("amitdatir3@gmail.com");
 		Thread.sleep(3000);
 		((WebElement) driver.findElements(By.xpath("//input[@id = 'continue'] [type = 'submit']"))).click();
-		driver.findElement(By.xpath("//input[@id = 'ap_password'][@name = 'password']")).sendKeys("Amit@9822");
+		driver.findElement(By.xpath("//input[@id = 'ap_password'][@name = 'password']")).sendKeys("*********");
 		Thread.sleep(3000);
 		((WebElement) driver.findElements(By.xpath("//input[@id = 'signInSubmit'] [type = 'submit']"))).click();
 		Thread.sleep(3000);
