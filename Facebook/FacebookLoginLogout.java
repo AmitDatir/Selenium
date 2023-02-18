@@ -21,10 +21,10 @@ public class FacebookLogin {
 		driver.findElement(By.linkText("Already have an account?")).click();
 		Thread.sleep(3000);
 		System.out.println("4. Landed on sign in page");
-		driver.findElement(By.xpath("//input[@id = 'email'][@class = 'inputtext _55r1 inputtext _1kbt inputtext _1kbt']")).sendKeys("amitdatir3@gmail.com");
+		driver.findElement(By.xpath("//input[@id = 'email'][@class = 'inputtext _55r1 inputtext _1kbt inputtext _1kbt']")).sendKeys("email");
 		System.out.println("5. Entered username");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id = 'pass'] [@class = 'inputtext _55r1 inputtext _9npi inputtext _9npi']")).sendKeys("9822738608");
+		driver.findElement(By.xpath("//input[@id = 'pass'] [@class = 'inputtext _55r1 inputtext _9npi inputtext _9npi']")).sendKeys("password");
 		System.out.println("6. Entered password");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button [@id = 'loginbutton']")).click();
