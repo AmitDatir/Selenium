@@ -1,5 +1,3 @@
-package Selenium_P01.T001;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
