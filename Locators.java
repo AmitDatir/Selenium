@@ -22,6 +22,7 @@
     </form>
 */
 
+    
 -ID:
 WebElement element = driver.findElement(By.id("inputUsername"));
 //Always use ID locator if present as it uniquely identifies the element.
@@ -71,6 +72,11 @@ parentTag childTag             :             form h2
 //incomplete attribute value:
 input[type *= 'pass']        //complete value: password
 tagname                      //using only unique tagname also works for css
+
+//To select first or last element from multiple elements:
+input[type = 'text']:last-of-type
+input[type = 'text']:first-of-type
+
 
     
 --XPath:
