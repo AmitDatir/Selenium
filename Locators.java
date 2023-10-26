@@ -80,7 +80,7 @@ input[type = 'text']:first-of-type
 
     
 --XPath:
-tagName[@attribute1 = 'value1'][@attribute2 = 'value2']                  //  //input[@placeholder = 'Username']
+//tagName[@attribute1 = 'value1'][@attribute2 = 'value2']                  //  //input[@placeholder = 'Username']
 
 Absolete xpath:
 /html/tagname/tagname                //absolete xpath always starts with single / & from root node that is html tag
