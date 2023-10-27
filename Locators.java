@@ -88,7 +88,7 @@ Relative xpath:
 //tagname/tagname                    //relative xpath starts from any relative location and it always starts with //
 
 //to check element using console : 
-$x('css locator')
+$x('xpath locator')
 
 //how to handle case of multiple elements with same attribute values
     //input[@type = 'text'][2]                    //2 is the index of the desired locator
