@@ -57,7 +57,7 @@ WebElement element = driver.findElement(By.partialLinkedText("Forgot"));
 
 --CSS Selector:
 Class Name: tagName.className OR .className    //input.submit              //if we use .className, make sure className is unique
-    ID    : tagName#id        OR .id           //input#inputUsername
+    ID    : tagName#id        OR #id           //input#inputUsername
   General : tagName[attribute = 'value']       //input[placeholder = 'Username']
     
 //to check element using console : 
