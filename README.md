@@ -1,2 +1,2 @@
 # Selenium
-Repository for all the codes related to selenium automation
+Repository for all the code related to selenium automation
