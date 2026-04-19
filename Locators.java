@@ -111,3 +111,21 @@ $x('xpath locator')
 
 //Xpath using locator text:
     //tagname[text() = 'locator text']                   //button[text() = 'Log Out']
+
+
+    //XPath axes:
+//following::input[1]: Selects the first <input> element that appears anywhere in the document after the current node's closing tag.
+// preceding::label[1]: Selects the first <label> element that appears anywhere before the current node in the document.
+// ancestor::div: Selects all <div> ancestors (parent, grandparent, etc.) of the current node.
+// descendant::span: Selects all <span> elements that are descendants (children, grandchildren, etc.) of the current node.
+// parent::div: Selects the immediate <div> parent of the current node.
+// child::li: Selects all <li> elements that are direct children of the current node. 
+
+//Quick Reference Table
+// Axis 	    Description	                                Typical Usage Example
+// Ancestor	    Selects all parents and grandparents	    //input/ancestor::form
+// Child	    Selects direct children only	            //ul/child::li
+// Descendant	Selects all children and sub-children	    //body/descendant::a
+// Following	Selects everything after the current node	//h1/following::p
+// Preceding	Selects everything before the current node	//button/preceding::label
+// Parent	    Selects only the immediate parent	        //span/parent::div
