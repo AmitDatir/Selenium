@@ -15,3 +15,13 @@ public WebElement getShadowElement(WebDriver driver, String hostSelector, String
         host
     );
 }
+
+
+
+//How to call it in your test:
+
+// Use the selectors you confirmed work in the console
+WebElement searchBox = getShadowElement(driver, "#inputInnerContainer", "#input");
+
+// Now you can interact with it normally
+searchBox.sendKeys("Your search query");
