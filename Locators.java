@@ -73,6 +73,12 @@ parentTag childTag             :             form h2
 input[type *= 'pass']        //complete value: password
 tagname                      //using only unique tagname also works for css
 
+//Prefix match (^=): 
+input[id^='ext-gen']
+
+//Suffix match ($=): 
+input[id$='_email']
+
 //To select first or last element from multiple elements:
 input[type = 'text']:last-of-type
 input[type = 'text']:first-of-type
@@ -111,6 +117,9 @@ $x('xpath locator')
 
 //Xpath using locator text:
     //tagname[text() = 'locator text']                   //button[text() = 'Log Out']
+
+//starts-with(): Targets attributes with a constant prefix value.
+    //button[starts-with(@id, 'submit_')]
 
 
     //XPath axes:
